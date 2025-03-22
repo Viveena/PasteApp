@@ -2,7 +2,11 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { removeFromPastes } from '../Redux/pasteSlice';
 import toast from 'react-hot-toast';
-import { FaEdit, FaTrash, FaCopy, FaShareAlt, FaSearch, FaStreetView, FaEye } from 'react-icons/fa';
+import * as FaIcons from 'react-icons/fa';
+
+<FaIcons.FaEdit />
+<FaIcons.FaTrash />
+
 
 const Paste = () => {
     const pastes = useSelector((state) => state.paste.pastes);
