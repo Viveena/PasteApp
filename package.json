@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://viveena.github.io/PasteApp/",
   "scripts": {
     "start": "react-scripts start",
     "dev": "vite",
